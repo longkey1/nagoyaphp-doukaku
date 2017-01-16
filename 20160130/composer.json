@@ -1,0 +1,24 @@
+{
+    "name": "nagoyaphp/doukaku",
+    "description":" ",
+    "keywords":[
+    ],
+    "license": "MIT",
+    "autoload":{
+        "psr-4":{
+            "NagoyaPHP\\Doukaku\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "NagoyaPHP\\Doukaku\\": ["tests/", "tests/Fake"]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    }
+}

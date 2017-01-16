@@ -1,0 +1,28 @@
+{
+    "name": "nagoyaphp/study20150411",
+    "description":" ",
+    "keywords":[
+    ],
+    "license": "BSD-3-Clause",
+    "autoload":{
+        "psr-4":{
+            "NagoyaPHP\\Study20150411\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "NagoyaPHP\\Study20150411\\": "tests/",
+            "NagoyaPHP\\Study20150411\\": "tests/Fake"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    }
+}
