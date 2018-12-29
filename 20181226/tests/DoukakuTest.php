@@ -30,7 +30,7 @@ class DoukakuTest extends TestCase
         $this->assertEquals($expected, $this->doukaku->run($input));
     }
 
-    public function dataProvider()
+    public function dataProvider(): array
     {
         return [
             ['aegj', '286/435/971'],
