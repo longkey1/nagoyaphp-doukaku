@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  php:
+    image: registry.gitlab.com/longkey1/docker-php:7.2
+    volumes:
+      - .:/usr/src/myapp
+    working_dir: /usr/src/myapp
+    user: "${DOCKER_COMPOSE_UID}:${DOCKER_COMPOSE_GID}"

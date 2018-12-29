@@ -1,0 +1,7 @@
+php:
+  summary: php
+  exec: docker-compose run --rm php
+
+composer:
+  summary: composer
+  exec: docker-compose run --rm php composer
