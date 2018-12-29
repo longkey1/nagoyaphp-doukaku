@@ -8,4 +8,9 @@ namespace Nagoyaphp\Doukaku;
 
 class Doukaku
 {
+    public function run(string $input): string
+    {
+        // implement code.
+        return '123/456/789';
+    }
 }
